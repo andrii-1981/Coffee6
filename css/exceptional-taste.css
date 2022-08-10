@@ -1,118 +1,117 @@
 .main__container {
-    width: 100%;
+  width: 100%;
 }
 
 .main__first-image {
-
-    width: 100%;
-    height: 900px;
+  width: 100%;
+  height: 900px;
 }
 
 .main__left-side {
-    float: left;
-    width: 45%;
+  float: left;
+  width: 45%;
 }
 
 #new__arrival-header-text {
-    color: #c00407;
-    font-size: inherit;
-    font-family: "Roboto";
-    font-size: small;
+  color: #c00407;
+  font-size: inherit;
+  font-family: "Roboto";
+  font-size: small;
 }
 
 .main__paragraf--text1 {
-    font-size: 15px;
-    font-family: "Roboto";
-    color: #8c8c8c;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: #8c8c8c;
 }
 
 .main__paragraf--text2 {
-    display: inline;
-    font-size: 15px;
-    font-family: "Roboto";
-    color: #8c8c8c;
+  display: inline;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: #8c8c8c;
 }
 
 .okey__icon {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .main__second-part {
-    width: 55%;
+  width: 55%;
 
 }
 
 .exceptional__taste-header {
-    text-align: right;
-    color: red;
+  text-align: right;
+  color: red;
 }
 
 .all__text {
-    margin-top: 50px;
-    margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .header__text--part1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .all__icon--text {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .rent__button {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .rent__button a:hover {
-    background-color: black;
-    text-decoration: none;
+  background-color: black;
+  text-decoration: none;
 
 }
 
 .button__rent--now {
-    background-color: #c00407;
-    background-size: 80px;
-    border: 3px solid #c00407;
-    width: 80px;
-    height: 70px;
-    text-decoration: none;
+  background-color: #c00407;
+  background-size: 80px;
+  border: 3px solid #c00407;
+  width: 80px;
+  height: 70px;
+  text-decoration: none;
 }
 
 .button__rent--now a:link {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .first__text-rightside {
-    color: #c00407;
-    font-size: inherit;
-    font-family: "Roboto";
-    font-size: small;
+  color: #c00407;
+  font-size: inherit;
+  font-family: "Roboto";
+  font-size: small;
 }
 
 .main__right--side {
-    float: right;
-    width: 50%;
-    padding-top: 80px;
+  float: right;
+  width: 50%;
+  padding-top: 80px;
 }
 
 .header__text--part2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .all__text--rightside {
-    text-align: left;
+  text-align: left;
 }
 
 .strong {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .all__text--rightside2 {
-    font-size: 15px;
-    font-family: "Roboto";
-    color: #8c8c8c;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: #8c8c8c;
 
 }
