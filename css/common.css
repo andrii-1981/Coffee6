@@ -1,0 +1,25 @@
+
+.video__header {
+    color: #c00407;
+    font-size: inherit;
+}
+
+.testimonials__header {
+    color: #c00407;
+    font-size: inherit;
+    text-align: center;
+
+}
+
+.testimonials__clients {
+    color: #222;
+    position: relative;
+    max-width: 100%;
+
+}
+.section__choice {
+    background-color:#c00407 ;
+}
+.choice__header, .choice__text {
+    color: #fff;
+}
