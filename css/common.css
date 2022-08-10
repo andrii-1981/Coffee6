@@ -1,0 +1,9 @@
+:root {
+  --text-higlight: #c00407;
+  --heading-color: #222;
+}
+
+img {
+  width: 50%;
+  display: block;
+}
