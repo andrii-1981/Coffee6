@@ -3,7 +3,7 @@
   --heading-color: #222;
 }
 
-img {
+*img {
   width: 50%;
   display: block;
 }
