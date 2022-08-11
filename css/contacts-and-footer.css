@@ -1,17 +1,50 @@
-.question-faq-section {
-  color: var(--heading-color);
+.faq-section {
+  margin: 50px 15px 0;
 }
-
 
 .faq-section details {
   padding: 20px 0;
 }
 
-#contacts p, #faq {
+details[open] summary {
+  margin: 10px;
+}
+
+details p {
+  padding: 5px 20px;
+}
+
+#photo-happy-women {
+  object-fit: cover;
+  width: 350px;
+  border-radius: 2%;
+  margin-bottom: 60px;
+}
+
+.heading-answer {
+  padding-right: 10px;
+}
+
+.questions-dropdown {
+  cursor: pointer;
+}
+
+.question-faq-section {
+  color: var(--heading-color);
+}
+
+.mini-heading {
   color: var(--text-higlight);
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.heading {
+  color: var(--heading-color);
+  font-size: 36px;
+  margin: 0;
 }
 
 footer {
