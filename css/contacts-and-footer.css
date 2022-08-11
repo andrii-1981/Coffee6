@@ -1,3 +1,12 @@
+.question-faq-section {
+  color: var(--heading-color);
+}
+
+
+.faq-section details {
+  padding: 20px 0;
+}
+
 #contacts p, #faq {
   color: var(--text-higlight);
   font-weight: 500;
@@ -8,8 +17,13 @@
 footer {
   width: 100%;
   background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-map {
   border: 0;
+  width: 320;
 }

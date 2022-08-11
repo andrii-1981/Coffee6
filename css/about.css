@@ -44,13 +44,12 @@
 }
 
 .indesp {
-  display: block;
   display: flex;
 }
 
 .all_steps {
-  display: block;
   display: flex;
+  flex-direction: column;
   text-align: center;
   width: 100%;
 }

@@ -7,7 +7,7 @@
 
   .main {
     text-transform: uppercase;
-    color: #c00407;
+    color: var(--text-higlight);
     text-align: center;
     font-size: 11px;
   }
@@ -47,7 +47,7 @@
   .component {
     height: 2px;
     width: 11%;
-    background-color: #c00407;
+    background-color: var(--text-higlight);
   }
 
   .main-text {
