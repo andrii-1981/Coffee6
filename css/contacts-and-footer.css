@@ -50,7 +50,8 @@ details>p {
 }
 
 .heading-answer {
-  padding-right: 10px;
+  margin: 10px 0 30px;
+  padding-right: 20px;
   line-height: 1.6;
 }
 
