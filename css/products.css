@@ -9,21 +9,6 @@
   justify-content: center;
 }
 
-.testimonials__header {
-  color: #c00407;
-  font-size: inherit;
-  text-align: center;
-
-}
-
-.testimonials__clients {
-  color: black;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: inherit;
-  font-family: Roboto, sans-serif;
-}
-
 .name__client {
   color: #c00407;
   font: inherit;
