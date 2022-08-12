@@ -23,37 +23,19 @@ details p {
 
 .heading-answer {
   padding-right: 10px;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .questions-dropdown {
   cursor: pointer;
-}
-
-.question-faq-section {
-  color: var(--heading-color);
-}
-
-.mini-heading {
-  color: var(--text-higlight);
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: 12px;
-  margin: 20px 0;
-}
-
-.heading {
-  color: var(--heading-color);
-  font-size: 36px;
-  margin: 0;
+  padding-bottom: 50px;
 }
 
 footer {
   width: 100%;
   background-color: var(--bg-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 50px 0;
 }
 
 .footer-map {
