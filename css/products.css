@@ -1,58 +1,42 @@
-
 .video__header {
-    color: #c00407;
-    font-size: inherit;
-  }
-  
-  .choice__button button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .testimonials__header {
-    color: #c00407;
-    font-size: inherit;
-    text-align: center;
-  
-  }
-  
-  .testimonials__clients {
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: inherit;
-    font-family: Roboto, sans-serif;
-  }
-  
-  .name__client {
-    color: #c00407;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: Poppins SemiBold;
-  }
-  
-  .clients__cards {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .testimonials__text {
-    color: #8c8c8c;
-    font-style: italic;
-    text-transform: none;
-    text-align: left;
-    position: relative;
-    min-width: 320px;
-    padding-top: 05px;
-    padding-bottom: 05px;
-  }
-  
-  
-  .section__choice {
-    background-color: #c00407;
-  }
-  
-  .choice__header, .choice__text {
-    color: #fff;
-  }
+  color: #c00407;
+  font-size: inherit;
+}
+
+.choice__button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name__client {
+  color: #c00407;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Poppins SemiBold;
+}
+
+.clients__cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials__text {
+  color: #8c8c8c;
+  font-style: italic;
+  text-transform: none;
+  text-align: left;
+  position: relative;
+  min-width: 320px;
+  padding-top: 05px;
+  padding-bottom: 05px;
+}
+
+
+.section__choice {
+  background-color: #c00407;
+}
+
+.choice__header, .choice__text {
+  color: #fff;
+}
