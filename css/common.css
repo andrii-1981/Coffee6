@@ -10,6 +10,7 @@
   padding: 0;
   color: rgb(101, 101, 101);
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 .heading {
@@ -38,12 +39,12 @@
   margin: 20px 0;
 }
 
-* img {
+img {
   width: 50%;
   display: block;
 }
 
-@media screen and (min-width: 500px) {
+@media (min-width: 500px) {
   .heading {
     font-size: 28px;
   }
