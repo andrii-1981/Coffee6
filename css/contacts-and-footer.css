@@ -1,3 +1,4 @@
+/* Yuliia's part */
 .faq-section {
   margin: 50px 20px 0;
 }
@@ -5,7 +6,7 @@
 .faq-section details {
   padding: 20px 0;
   border-bottom: solid;
-  border-color: rgb(101, 101, 101);
+  border-color: var(--text-color);
   border-width: 0.5px;
   cursor: pointer;
 }
@@ -22,14 +23,14 @@ summary::before {
   margin-right: 10px;
   content: "+";
   font-size: 20px;
-  color: rgb(101, 101, 101);
+  color: var(--text-color);
 }
 
 details[open] summary::before {
   margin-right: 10px;
   content: "-";
   font-size: 20px;
-  color: rgb(101, 101, 101);
+  color: var(--text-color);
 }
 
 details>p {
@@ -80,6 +81,28 @@ footer {
   border: 0;
   width: 100%;
   height: 250px;
+}
+
+.input-footer {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-footer>input {
+  margin: 5px;
+  width: 100%;
+  border-style: none;
+}
+
+.submit-button-footer {
+  background-color: var(--text-higlight);
+  color: var(--bg-color);
+  border-style: none;
+  width: 100%;
+  margin: 0 15px;
 }
 
 @media (min-width: 750px) {

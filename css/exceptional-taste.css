@@ -4,13 +4,13 @@
 
 .main__first-image {
   width: 100%;
-  height: 900px;
+  /* height: 900px; */
 }
-
+/* 
 .main__left-side {
-  float: left;
+  float: left; 
   width: 45%;
-}
+} */
 
 #new__arrival-header-text {
   color: #c00407;
@@ -39,7 +39,6 @@
 
 .main__second-part {
   width: 55%;
-
 }
 
 .exceptional__taste-header {
@@ -67,7 +66,6 @@
 .rent__button a:hover {
   background-color: black;
   text-decoration: none;
-
 }
 
 .button__rent--now {
@@ -91,11 +89,11 @@
   font-size: small;
 }
 
-.main__right--side {
-  float: right;
+ /*  .main__right--side {
+ float: right;
   width: 50%;
-  padding-top: 80px;
-}
+  padding-top: 80px; 
+} */
 
 .header__text--part2 {
   font-size: 40px;
