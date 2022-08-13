@@ -1,4 +1,5 @@
 /* Yuliia's part */
+
 .faq-section {
   margin: 50px 20px 0;
 }
@@ -64,11 +65,7 @@ details>p {
 footer {
   width: 100%;
   background-color: var(--bg-color);
-  padding: 50px 0;
-}
-
-.contacts-section {
-  margin: 0 20px;
+  padding: 50px 20px;
 }
 
 #consultation-offer {
@@ -76,11 +73,21 @@ footer {
   margin: 10px 0;
 }
 
-
 .footer-map {
   border: 0;
   width: 100%;
   height: 250px;
+}
+
+.input-footer-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 70vh;
+  background-color: white;
+  border-radius: 2%;
+  margin-top: 40px;
 }
 
 .input-footer {
@@ -91,10 +98,19 @@ footer {
   justify-content: center;
 }
 
-.input-footer>input {
-  margin: 5px;
+.user-data-input {
+  margin: 10px 0;
+  height: 6.5vh;
   width: 100%;
   border-style: none;
+  font-size: 12px;
+  padding: 15px;
+  background-color: var(--bg-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+#quote-input {
+  height: 18vh;
 }
 
 .submit-button-footer {
@@ -102,7 +118,13 @@ footer {
   color: var(--bg-color);
   border-style: none;
   width: 100%;
-  margin: 0 15px;
+  height: 7.2vh;
+  margin: 50px 15px 0;
+  transition: ease-in-out 0.7s;
+}
+
+.submit-button-footer:hover {
+  background-color: var(--heading-color);
 }
 
 @media (min-width: 750px) {
