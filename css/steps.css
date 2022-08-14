@@ -1,36 +1,17 @@
-.indtext {
-  position: absolute;
-  color: black;
-  font-size: 1em;
-  text-align: center;
-}
-
-.ind {
-  float: left;
-  position: relative;
-  width: 100%;
-}
-
-.esp {
-  float: right;
-  position: relative;
-  width: 100%;
-}
-
-.esptext {
-  position: absolute;
-  color: white;
-  font-size: 1em;
-  text-align: center;
-}
-
-.indesp {
-  display: flex;
-}
-
 .all_steps {
-  display: flex;
-  flex-direction: column;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    margin: 20px;
+}
+
+.img_steps{
+width: 100%;
+}
+
+.steps{
+  display: block;
+  align-items: center;
   text-align: center;
-  width: 100%;
+  margin: 20px;
 }
