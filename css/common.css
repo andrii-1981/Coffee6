@@ -3,6 +3,9 @@
   --heading-color: #222;
   --bg-color: rgb(249, 249, 249);
   --text-color: rgb(101, 101, 101);
+  --head-text-color: #fff;
+  --background-darkened:rgba(0, 0, 0, 0.873);
+  --background: #c00407;
 }
 
 .container {
