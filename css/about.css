@@ -39,13 +39,13 @@
   font-size: 12px;
 }
 
-.coffee_space_header{
+.coffee_space_steps_header{
   color: rgb(34, 34, 34);
   font-size: 40px;
   font-family: Poppins, sans-serif;
 }
 
-.coffee_space_paragraph{
+.coffee_space_steps_paragraph{
   font-size: 18px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgb(101, 101, 101);
@@ -92,4 +92,28 @@
   color: rgb(255, 255, 255);
   font-size: 40px;
   font-family: Poppins, sans-serif;
+}
+
+.espresso_paragraph{
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-family: Poppins, sans-serif;
+}
+
+.espresso_text_us{
+  color: rgb(192, 4, 7);
+  font-size: 32px;
+  font-family: Poppins, sans-serif;
+}
+
+.espresso_order{
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pfeil{
+  color: rgb(192, 4, 7);
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
