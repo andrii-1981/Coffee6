@@ -1,5 +1,5 @@
 .services {
-  margin: 50px 20px; 
+  margin: 40px 15px; 
 }
 .service-image {
   display: inline-block;
@@ -15,7 +15,7 @@
 
 .services-head {
   text-align: center;
-  font-size: xx-large;
+  font-size: 34px;
 }
 
 .services-text {
@@ -71,11 +71,20 @@
   color: #8c8c8c;
   display: contents;
 }
-@media (min-width: 700px) {
+
+.red-short-line {
+  height: 2px;
+  width: 11%;
+  background-color: #c00407;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+@media (min-width: 750px) {
   
   .services {
-    padding-top: 55px;
-    padding-bottom: 60px;
+    padding-top: 45px;
+    padding-bottom: 25px;
   }
 
   .main {
