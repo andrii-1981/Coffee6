@@ -1,7 +1,7 @@
 @import url(common.css);
 @import url(header.css);
 @import url(exceptional-taste.css);
-/* @import url(about.css); */
+@import url(about.css);
 @import url(products.css);
 @import url(sectionservices.css);
 @import url(contacts-and-footer.css);
