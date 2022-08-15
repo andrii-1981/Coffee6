@@ -1,19 +1,33 @@
 .about {
-  display: grid;
+  display:grid;
+  justify-items: center;
+  grid-column-gap: 10px;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
 }
 
 .img_machine {
-  width: 570px;
+  width: 100%;
 }
+
 
 .about_coffee_space {
   margin: 10px;
+  width: 100%;
 }
 
 .marker {
   width: 20px;
+}
+
+.coffee_paragraph_heading{
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.coffee_paragraph_heading{
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 .indulgo-espresso_img {
@@ -24,13 +38,13 @@
 .about_indulgo {
   background-image: url(../img/section_about/indulgo.png);
   text-align: center;
-  width: 570px;
+  width: 100%;
 }
 
 .about_espresso {
   background-image: url(../img/section_about/espresso_coffee_beans.png);
   text-align: left;
-  width: 570px;
+  width: 100%;
 }
 
 .header_name {
