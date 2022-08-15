@@ -1,6 +1,7 @@
 .services {
-  margin: 50px 20px; 
+  margin: 50px 20px;
 }
+
 .service-image {
   display: inline-block;
   width: 100%;
@@ -29,9 +30,11 @@
   padding: 10px;
   box-shadow: 3px 3px 5px #999;
 }
+
 .services-defenition {
   margin: left 25px;
 }
+
 .nav-list li {
   display: inline-block;
   padding: 0 10px;
@@ -71,8 +74,9 @@
   color: #8c8c8c;
   display: contents;
 }
+
 @media (min-width: 700px) {
-  
+
   .services {
     padding-top: 55px;
     padding-bottom: 60px;
