@@ -1,9 +1,5 @@
 .services {
-<<<<<<< HEAD
-  margin: 50px 20px;
-=======
-  margin: 40px 15px; 
->>>>>>> c310aeaf560ff1adfd8a70aa698a026e9b5b5ad6
+  margin: 40px 15px;
 }
 
 .service-image {
@@ -79,10 +75,6 @@
   display: contents;
 }
 
-<<<<<<< HEAD
-@media (min-width: 700px) {
-
-=======
 .red-short-line {
   height: 2px;
   width: 11%;
@@ -92,8 +84,7 @@
 }
 
 @media (min-width: 750px) {
-  
->>>>>>> c310aeaf560ff1adfd8a70aa698a026e9b5b5ad6
+
   .services {
     padding-top: 45px;
     padding-bottom: 25px;
