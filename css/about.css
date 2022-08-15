@@ -10,19 +10,12 @@
   width: 100%;
 }
 
-
 .about_coffee_space {
-  margin: 10px;
   width: 100%;
 }
 
 .marker {
   width: 20px;
-}
-
-.coffee_paragraph_heading{
-  display: grid;
-  grid-template-columns: auto 1fr;
 }
 
 .coffee_paragraph_heading{
