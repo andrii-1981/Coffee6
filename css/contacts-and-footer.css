@@ -62,11 +62,6 @@ details>p {
   padding-bottom: 50px;
 }
 
-footer {
-  width: 100vw;
-  background-color: var(--bg-color);
-}
-
 .upper-footer-wrap {
   padding: 50px 20px;
 }
@@ -78,6 +73,7 @@ footer {
 
 .contacts-info {
   margin-top: 20px;
+  padding: 0;
 }
 
 .contacts-info>p {
