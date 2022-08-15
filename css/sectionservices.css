@@ -1,7 +1,96 @@
+section {
+  padding-top: 55px;
+  padding-bottom: 60px;
+}
+h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  box-sizing: border-box;
+  font-stretch: 100%;
+  padding: 10px;
+  color: var(--text-higlight);
+}
+.services-head {
+  text-align: center;
+  font-size: 37px;
+  box-sizing: border-box;
+  font-stretch: 100%;
+  font-stretch: 100%;
+  padding: 10px;
+}
+
+.services-text {
+  font-size: 18px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 23%;
+  padding-right: 23%;
+  margin-bottom: 6%;
+}
+.border {
+  border: 2px solid rgb(101,101,101);
+  padding: 20px;
+  box-shadow:3px 3px 5px #999;
+  flex-direction: column;
+  position: relative;
+  margin: 6px;  
+  border-width: medium;
+}
+.about-rental{
+  color: black;
+  font-size: 22px;
+  padding-top: 5%;
+}
+.benefits{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.main-text {
+  box-sizing: border-box;
+  font-size: 16px;
+  padding-top: 15px;
+}
+h4 {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.service-image{
+  width: 90%;
+}
+.services-name{
+  display: flex;
+  width: 90%;
+}
+.red-short-line{
+  height: 2px;
+  width: 11%;
+  background-color: #c00407;
+}
+
+.red-icon {
+  width: 20px;
+  height: 24px;
+}
+.services-defenition { 
+  display: block;
+flex-wrap: wrap;
+width: 100%;
+}
+.advantages {
+  position: relative;
+  bottom: 40px;
+  left: 30px;
+  color: #8c8c8c;
+  display: contents;
+  font-size: 16px;
+}
+
 @media screen and (max-width: 900px) {
 
   img {
-    display: block;
+    display: inline-block;
     width: 100%;
   }
 
