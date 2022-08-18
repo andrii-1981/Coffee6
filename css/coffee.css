@@ -3,13 +3,12 @@
     padding-bottom: 90px;
     padding-left: 24px;
     padding-right: 24px;
-    margin: auto;
-   
+    
 }
 .header-coffee {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 .coffee-text {
     text-align: center;
@@ -24,4 +23,30 @@
     justify-content: space-between;
     align-items: center;
     overflow-x: scroll;
+    overflow-y: hidden;
+}
+.coffee-card {
+    margin: 20px;
+    width: 300px;
+}
+.coffee-item {
+    width: 250px;
+}
+.coffee-link {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+.coffee-price {
+    color: var(--background);
+    font-weight: bold;
+    font-size: 18px;
+}
+.coffee-order {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: var(--background);
+    color: var(--head-text-color);
 }
