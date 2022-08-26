@@ -40,7 +40,7 @@
         renderCarousel();
     }
 
-    setInterval(next, 3000);
+    //setInterval(next, 3000);
 
     const prevButton = document.querySelector('.testimonials-carousel__btn-prev');
     prevButton.addEventListener('click', prev);

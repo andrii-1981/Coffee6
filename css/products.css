@@ -76,11 +76,6 @@
   font-family: Poppins SemiBold;
 }
 
-.testimonials-clients {
-  display: flex;
-  flex-direction: column;
-}
-
 .testimonials__text {
   color: #8c8c8c;
   font-style: italic;
@@ -91,7 +86,6 @@
   padding-top: 05px;
   padding-bottom: 05px;
 }
-
 
 .section__choice {
   background-color: var(--background);
