@@ -12,45 +12,44 @@
         </div>`,
         `<div class ="testimonials__slide">
             <img src="img/testimonials/client-04.png" alt="Client 04">
-        </div>`;
-    ]
+        </div>`
+    ];
     
     let currentSlideIdx  = 0;
 
     function renderCarousel() {
-        const slideContainer = document.querySelector('.testimonials-carousel');
-        slideContainer.innerHTML = slides [currentSlideIdx];
-
+        const slideContainer = document.querySelector('.testimonials-carousel__slides');
+        slideContainer.innerHTML = slides[currentSlideIdx];
         if (window.innerWidth > 600) {
             const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-            slideContainer.innerHTML += slides [secondSlideIdx];
-            if (window.secondSlideIdx.innerWidth > 900) {
+            slideContainer.innerHTML += slides[secondSlideIdx];
+            if (window.innerWidth > 900) {
                 const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-                slideContainer.innerHTML += slides [thirdSlideIdx];
+                slideContainer.innerHTML += slides[thirdSlideIdx];
             }
         }
     }
 
-    function prev () {
-        currentSlideIdx = currentSlideIdx -1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
-        
-        renderCarousel ();
+    function prev() {
+        currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
+        renderCarousel();
     }
-    function next () {
-        currentSlideIdx = currentSlideIdx + 1 <= slides.length ? 0 : currentSlideIdx + 1;
-        
-        renderCarousel ();
+
+    function next() {
+        currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+        renderCarousel();
     }
-    setInterval (next, 3000);
 
-    const prevButton = document.querySelector ('.testimonials-carousel__btn-prev');
-    prevButton.addEventListener ('click', prev);
+    setInterval(next, 3000);
 
-    const nextButton = document.querySelector ('.testimonials-carousel__btn-next');
-    nextButton.addEventListener ('click', next);
+    const prevButton = document.querySelector('.testimonials-carousel__btn-prev');
+    prevButton.addEventListener('click', prev);
 
-    renderCarousel ();
+    const nextButton = document.querySelector('.testimonials-carousel__btn-next');
+    nextButton.addEventListener('click', next);
 
-    window.addEventListener ('resize', renderCarousel);
+    renderCarousel();
+
+    window.addEventListener('resize', renderCarousel);
 
 })();
