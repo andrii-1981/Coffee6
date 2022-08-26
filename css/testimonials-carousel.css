@@ -4,8 +4,8 @@
     align-items: center;
 }
 
-.testimonials-carousel__slide {
-    min-height: 400px;
+.testimonials-carousel__slides {
+    min-height: 100px;
     display: flex;
     justify-content: space-around;
 }
