@@ -76,7 +76,7 @@
   font-family: Poppins SemiBold;
 }
 
-.clients__cards {
+.testimonials-clients {
   display: flex;
   flex-direction: column;
 }
