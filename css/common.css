@@ -7,8 +7,8 @@
   --background-darkened: rgba(0, 0, 0, 0.873);
   --contacts-bg: rgb(33, 33, 33);
   --background: #c00407;
-  --transition-hover: ease-in-out 0.7s;
-  --text-color-transparent:rgba(255,255,255,0.5);
+  --transition-hover: ease-in-out 0.4s;
+  --text-color-transparent: rgba(255, 255, 255, 0.5);
 }
 
 .container {
