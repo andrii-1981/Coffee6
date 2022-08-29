@@ -1,11 +1,11 @@
 .testimonials-carousel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .testimonials-carousel__slides {
-    min-height: 100px;
-    display: flex;
-    justify-content: space-around;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-around;
 }
