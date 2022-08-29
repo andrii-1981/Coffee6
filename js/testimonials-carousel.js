@@ -8,7 +8,7 @@
             Therefore, I decided to
             rent a coffee machine from this company. I am very pleased with the service - everything was
             done quickly, they brought and set up the coffee machine.”</p>
-          <p>December 15, 2020</p>
+          <p class="text__data">December 15, 2020</p>
         </div>`,
         `<div class ="testimonials__slide">
             <img src="img/testimonials/client-02.png" alt="Client 02">
@@ -17,7 +17,7 @@
               with automatic
               coffee machines. However, such equipment is very expensive. So, we simply rented coffee
               machines from this company and were completely satisfied.”</p>
-            <p>February 10, 2021</p>
+            <p class="text__data">February 10, 2021</p>
         </div>`,
         `<div class ="testimonials__slide">
             <img src="img/testimonials/client-03.png" alt="Client 03">
@@ -26,7 +26,7 @@
               Finally, I found
               this company and I am grateful for their excellent advice. They helped with the choice of
               the coffee machine and regularly deliver coffee beans and cups." </p>
-            <p>March 04, 2021</p>
+            <p class="text__data">March 04, 2021</p>
         </div>`,
         `<div class ="testimonials__slide">
             <img src="img/testimonials/client-04.png" alt="Client 04">
@@ -35,7 +35,7 @@
             this time, not a
             single problem situation has arisen. The service is fast, the coffee is delivered without
             delay, the prices for coffee machine rental are very low.”</p>
-            <p>March 22, 2021</p>
+            <p class="text__data">March 22, 2021</p>
         </div>`
     ];
     
