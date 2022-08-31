@@ -1,7 +1,68 @@
-.header-location, .header-phone {
-  width: 15px;
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
 }
 
-.social-media-icon {
-  width: 15px;
+.header-logo {
+  width: 30%;
+}
+
+.burger-menu {
+  color: var(--heading-color);
+  font-size: 30px;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.site-intro {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/header/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.rental-heading {
+  color: rgb(223, 223, 223);
+  margin: 5px 15px;
+  font-size: 12px;
+  padding-right: 300px;
+  line-height: 1.2;
+}
+
+.site-intro>p {
+  color: var(--head-text-color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 5px 15px;
+  padding-right: 300px;
+}
+
+.text-emphasis {
+  color: var(--text-higlight);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.header__link {
+  margin: 5px 15px;
+  background-color: var(--text-higlight);
+  transition: var(--transition-hover);
+  font-size: 12px;
+  color: var(--head-text-color);
+  border-style: none;
+  width: 150px;
+  height: 35px;
+}
+
+.header__link:hover {
+  background-color: var(--heading-color);
 }
