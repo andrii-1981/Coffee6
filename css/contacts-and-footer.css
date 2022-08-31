@@ -12,22 +12,23 @@
   cursor: pointer;
 }
 
-details>summary {
+.faq-questions {
   list-style: none;
+  font-weight: 400;
 }
 
-summary>* {
+.faq-questions>* {
   display: inline;
 }
 
-summary::before {
+.faq-questions::before {
   margin-right: 10px;
   content: "+";
   font-size: 20px;
   color: var(--text-color);
 }
 
-details[open] summary::before {
+details[open] .faq-questions::before {
   margin-right: 10px;
   content: "-";
   font-size: 20px;
@@ -38,6 +39,7 @@ details>p {
   margin: 12px 0 0;
   padding: 5px 20px;
   cursor: text;
+  font-size: 12px;
 }
 
 #photo-happy-women {
@@ -47,8 +49,13 @@ details>p {
   margin-bottom: 60px;
 }
 
+.faq-mini-heading {
+  margin: 10px 0;
+}
+
 .faq-heading-wrapper {
   width: 100%;
+  max-width: 1500px;
 }
 
 .heading-answer {
@@ -64,6 +71,7 @@ details>p {
 
 .upper-footer-wrap {
   padding: 50px 20px;
+  max-width: 1500px;
 }
 
 #consultation-offer {
@@ -91,6 +99,7 @@ details>p {
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
+  max-width: 1500px;
   height: 80vh;
   background-color: white;
   border-radius: 2%;
@@ -141,6 +150,7 @@ details>p {
   background-color: var(--contacts-bg);
   height: 110%;
   width: 100vw;
+  max-width: 1500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -163,11 +173,13 @@ details>p {
 
 .footer-service-logo {
   width: 50vw;
+  max-width: 750px;
   margin-bottom: 20px;
 }
 
 .footer-nav {
   width: 100vw;
+  max-width: 1500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,7 +219,8 @@ details>p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80vw;
+  width: 90vw;
+  max-width: 1200px;
 }
 
 .email-label {
@@ -217,8 +230,9 @@ details>p {
 }
 
 #email-subs {
-  width: 80vw;
-  height: 7vh;
+  width: 90vw;
+  max-width: 1200px;
+  height: 6vh;
   background-color: rgb(46, 46, 46);
   border: none;
   text-align: center;
@@ -235,8 +249,9 @@ details>p {
   color: var(--bg-color);
   border-style: none;
   width: 100%;
-  height: 7vh;
+  height: 6vh;
   margin: 15px 0 60px;
+  padding: 10px;
   transition: var(--transition-hover);
   font-size: 12px;
   font-weight: 500;
@@ -250,11 +265,16 @@ details>p {
 
 .copyright-section {
   background-color: rgb(20, 20, 20);
-  height: 20vh;
+  height: 100%;
+  max-width: 1500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.copyright-text-wrapper {
+  margin: 10px;
 }
 
 .copyright-text {
@@ -262,10 +282,17 @@ details>p {
   font-size: 10px;
 }
 
+.footer-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
 .footer-icon {
   width: 20px;
   background-color: rgb(46, 46, 46);
   transition: var(--transition-hover);
+  margin: 5px;
 }
 
 .footer-icon:hover {
@@ -273,31 +300,47 @@ details>p {
 }
 
 @media (min-width: 750px) {
-  #photo-happy-women {
-    width: 45%;
+  .faq-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
   }
 
-  .faq-heading-wrapper {
-    width: 45%;
+  .heading-answer {
+    font-size: 12px;
+    margin: 10px 0 8px;
+  }
+
+  #question-heading {
+    font-size: 24px;
+  }
+
+  #photo-happy-women {
+    width: 30%;
+    object-fit: contain;
+    margin: 0 10px;
+  }
+
+  .faq-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 30%;
+    margin: 0 10px;
+  }
+
+  .faq-section details {
+    padding: 10px 0;
   }
 
   .questions-dropdown {
-    width: 45%;
+    padding: 10px 0;
   }
 
-  .contacts-section {
-    margin: 0 40px;
-  }
-
-  #consultation-offer {
-    font-size: 12px;
-  }
-
-  .faq-section {
-    margin: 50px 40px 0;
-  }
-
-  .footer-map {
-    width: 45%;
+  .faq-questions {
+    font-size: 13px;
+    color: var(--heading-color);
   }
 }
