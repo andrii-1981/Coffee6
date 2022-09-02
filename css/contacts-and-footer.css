@@ -1,7 +1,11 @@
 /* Yuliia's part */
 
+.faq-section-wrap {
+  padding: 0 20px;
+}
+
 .faq-section {
-  margin: 50px 20px 0;
+  max-width: 1500px;
 }
 
 .faq-section details {
@@ -15,9 +19,11 @@
 .faq-questions {
   list-style: none;
   font-weight: 400;
+  font-size: 14px;
+  color: var(--background-darkened);
 }
 
-.faq-questions>* {
+.faq-questions * {
   display: inline;
 }
 
@@ -29,13 +35,13 @@
 }
 
 details[open] .faq-questions::before {
-  margin-right: 10px;
+  margin-right: 8px;
   content: "―";
   font-size: 18px;
   color: var(--text-color);
 }
 
-details>p {
+details p {
   margin: 12px 0 0;
   padding: 5px 20px;
   cursor: text;
@@ -43,10 +49,9 @@ details>p {
 }
 
 #photo-happy-women {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   border-radius: 2%;
-  margin-bottom: 60px;
 }
 
 .faq-mini-heading {
@@ -59,7 +64,8 @@ details>p {
 }
 
 .heading-answer {
-  margin: 10px 0 30px;
+  font-size: 12px;
+  margin: 10px 0 20px;
   padding-right: 20px;
   line-height: 1.6;
 }
@@ -84,14 +90,14 @@ details>p {
   padding: 0;
 }
 
-.contacts-info>p {
+.contacts-info p {
   font-size: 12px;
 }
 
 .footer-map {
   border: 0;
   width: 100%;
-  height: 250px;
+  max-height: 250px;
 }
 
 .input-footer-wrap {
@@ -149,7 +155,7 @@ details>p {
 .footer-info-section {
   background-color: var(--contacts-bg);
   height: 110%;
-  width: 100vw;
+  width: 100%;
   max-width: 1500px;
   display: flex;
   flex-direction: column;
@@ -165,8 +171,6 @@ details>p {
 }
 
 .footer-about-wrap span {
-  font-size: 11px;
-  margin: 5px;
   text-align: center;
   color: var(--text-color-transparent);
 }
@@ -299,13 +303,20 @@ details>p {
   background-color: var(--text-color);
 }
 
-@media (min-width: 750px) {
+@media (min-width: 700px) {
+  .faq-section-wrap {
+    width: 100%;
+    padding: 120px 30px;
+  }
+
   .faq-section {
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 60px;
+  }
+
+  #photo-happy-women {
+    max-height: 380px;
   }
 
   .heading-answer {
@@ -313,29 +324,23 @@ details>p {
     margin: 10px 0 8px;
   }
 
-  #question-heading {
+  .question-heading {
     font-size: 24px;
-  }
-
-  #photo-happy-women {
-    width: 30%;
-    object-fit: contain;
-    margin: 0 10px;
   }
 
   .faq-wrap {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 30%;
+    width: 100%;
     margin: 0 10px;
   }
 
-  .faq-section details {
-    padding: 10px 0;
+  .questions-dropdown {
+    padding-bottom: 0;
   }
 
-  .questions-dropdown {
+  .faq-section details {
     padding: 10px 0;
   }
 
@@ -352,22 +357,26 @@ details>p {
     font-size: 16px;
   }
 
-  .upper-footer-wrap {
-    display: flex;
+  .contacts-info {
+    display: grid;
+    grid-template-columns: 30% 70%;
     align-items: center;
-    justify-content: center;
+    margin-top: 10px;
   }
 
-  .contacts-section {
-    width: 35%;
+  .contacts-info:first-child {
+    grid-column: 1;
+    font-size: 14px;
   }
 
-  .footer-map {
-    width: 98%;
+  .contacts-info p {
+    grid-column: 2;
+    font-size: 11px;
   }
+}
 
-  .input-footer-wrap {
-    width: 35%;
-    padding: 30px;
+@media (min-width: 900px) {
+  .faq-section-wrap {
+    padding: 120px 50px;
   }
 }

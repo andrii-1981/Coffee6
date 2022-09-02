@@ -9,7 +9,7 @@
   --background: #c00407;
   --transition-hover: ease-in-out 0.7s;
   --testimonials-text: #8c8c8c;
-  --text-color-transparent:rgba(255,255,255,0.5);
+  --text-color-transparent: rgba(255, 255, 255, 0.5);
   --transition-hover: ease-in-out 0.4s;
   --text-color-transparent: rgba(255, 255, 255, 0.5);
 }
@@ -27,7 +27,7 @@
 .heading {
   color: var(--heading-color);
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 1.2;
   margin: 0;
   font-weight: 700;
@@ -37,7 +37,7 @@
 .sub-heading {
   color: var(--heading-color);
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 0;
 }
@@ -57,7 +57,7 @@ img {
 
 @media (min-width: 500px) {
   .heading {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .sub-heading {

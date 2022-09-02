@@ -58,7 +58,7 @@
 .ikonka__text {
   font-weight: bold;
   display: block;
-  vertical-align: baseline;
+  /* vertical-align: baseline; */
 }
 
 .section__choice {
@@ -140,11 +140,17 @@
 .text__data {
   font-size: 12px;
   line-height: 1.6;
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0;
   color: var (--heading-color);
   text-transform: none;
+}
+
+@media (min-width: 700px) {
+  .testimonials {
+    padding-bottom: 0;
+  }
 }
