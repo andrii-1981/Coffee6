@@ -107,9 +107,12 @@
   padding-left: 15px;
   padding-right: 15px;
   opacity: .95;
-  font-style: inherit;
-  font-size: inherit;
-
+  font-size: 16px;
+  transition: var(--transition-hover);
+  letter-spacing: 0.5px;
+}
+.tabs__nav-btn:hover {
+  background-color: rgb(101, 101, 101);
 }
 
 @media (min-width: 750px) {
