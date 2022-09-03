@@ -110,9 +110,11 @@
   font-size: 16px;
   transition: var(--transition-hover);
   letter-spacing: 0.5px;
+  color: rgb(101, 101, 101);
 }
 .tabs__nav-btn:hover {
-  background-color: rgb(101, 101, 101);
+  color: rgba(0, 0, 0, 0.922);
+  font-weight: bold;
 }
 
 @media (min-width: 750px) {
