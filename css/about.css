@@ -1,16 +1,17 @@
 #about {
   display: grid;
   justify-items: center;
-  padding: 10px;
+  padding: 50px 10px 30px 10px;
   grid-template-columns: 50% 50%;
 }
 .about_coffee_space{
-  padding: 10px 10px 10px 10px;
+  padding: 0px 10px 30px 10px;
   width: 90%;
 }
 .img_machine {
   width: 90%;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px;
+
 }
 .marker {
   width: 20px;
@@ -24,18 +25,20 @@
   background-size: 100% 100%;
   text-align: center;
   width: 90%;
-  border-radius: 15px 15px 15px 15px;
+  height: 328px;
+  border-radius: 15px;
   background-repeat: no-repeat;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
 }
 .about_espresso {
   background-image: url(../img/section_about/espresso_coffee_beans.png);
   background-size: 100% 100%;
   width: 90%;
+  height: 328px;
   text-align: left;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px;
   background-repeat: no-repeat;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
 }
 .header_name {
   color: rgb(192, 4, 7);
