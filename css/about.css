@@ -1,4 +1,4 @@
-.about {
+#about {
   display: grid;
   justify-items: center;
   grid-column-gap: 10px;
@@ -8,6 +8,7 @@
 
 .img_machine {
   width: 100%;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .about_coffee_space {
@@ -32,12 +33,14 @@
   background-image: url(../img/section_about/indulgo.png);
   text-align: center;
   width: 100%;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .about_espresso {
   background-image: url(../img/section_about/espresso_coffee_beans.png);
   text-align: left;
   width: 100%;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .header_name {
