@@ -4,6 +4,18 @@
   align-items: center;
 }
 
+.testimonials-carousel__btn-prev,
+.testimonials-carousel__btn-next {
+    border: none;
+    background-color: var(--bg-color);
+}
+
+.testimonials__btn {
+  width: 100%;
+  height: 100%;
+  width: 35px;
+}
+
 .testimonials-carousel__slides {
   min-height: 100px;
   display: flex;
