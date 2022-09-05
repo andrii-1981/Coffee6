@@ -3,15 +3,11 @@
   background: url(../img/testimonials/coffee.png) center center/cover no-repeat fixed;
 }
 
-.section__video-container {
-
-}
-
 .video__coffe__fon {
   background-color: var(--background-darkened);
   display: flex;
   justify-content: center;
-  padding: 0 40px;
+  padding: 195px 0 210px 0;
 }
 
 .video__content {
@@ -23,7 +19,7 @@
 
 .video__text {
   color: var(--head-text-color);
-  font-size: 48px;
+  font-size: 68px;
   line-height: 1.1;
   font-family: Poppins,sans-serif;
   font-weight: 700;
@@ -31,10 +27,9 @@
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 20px;
+  margin-top: 30px;
   display: block;
 }
-
 
 .ikonka__video {
   font-weight: bold;
@@ -92,6 +87,17 @@
   padding-bottom: 20px;
   display: flex;
   justify-content: center;
+}
+
+.choice__header{
+  font-size: 28px;
+  line-height: 1.4;
+  font-family: Poppins,sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .button__container {
