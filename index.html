@@ -558,14 +558,16 @@
 
     <!--Vita start-->
     <section class="section__video">
-      <div class="video__coffe__fon">
-        <div class="video__content">
-          <h2 class="video__header">VIDEO</h2>
-          <p class="video__text">Coffee Production Process</p>
-        </div>
-        <div class="ikonka__video">
-          <img class="ikonka__video__play" src="img/play.png" alt="ikonka__play">
-          <p class="ikonka__text">Watch Video</p>
+      <div class="section__video-container">
+        <div class="video__coffe__wrap">
+          <div class="video__content">
+            <h2 class="mini-heading">VIDEO</h2>
+            <p class="video__text">Coffee Production Process</p>
+          </div>
+          <div class="ikonka__video">
+            <img class="ikonka__video__play" src="img/play.png" alt="ikonka__play">
+            <p class="ikonka__text">Watch Video</p>
+          </div>
         </div>
       </div>
     </section>
@@ -575,10 +577,10 @@
         <p class="choice__text">We supply coffee beans with free delivery.</p>
       </div>
       <div class="button__container">
-        <a href="#coffee" class="btn choice__button__coffe" tabindex="-1" role="button" aria-disabled="true">Coffee
-          beans</a>
-        <a href="#contacts" class="btn choice__button__more" tabindex="-1" role="button" aria-disabled="true">Learn
-          More</a>
+        <a href="#coffee" class="btn choice__button__coffe" tabindex="-1" role="button" aria-disabled="true">
+          Coffee beans</a>
+        <a href="#contacts" class="btn choice__button__more" tabindex="-1" role="button" aria-disabled="true">
+          Learn More</a>
       </div>
     </section>
     <section class="testimonials">
@@ -616,16 +618,16 @@
           </section>
           <div class="questions-dropdown">
             <details>
-              <summary class="faq-questions">What coffee machines do you offer?</summary>
+              <summary class="faq-questions">What coffee machines do you offer? </summary>
               <p>We offer our customers various types of coffee machines - from manual ones for home use to professional
                 equipment.</p>
             </details>
             <details>
-              <summary class="faq-questions">Can I use my coffee in a rented coffee machine?</summary>
+              <summary class="faq-questions">Can I use my coffee in a rented coffee machine? </summary>
               <p>Sure. You can buy our coffee beans if you wish. But you can also use any other coffee beans.</p>
             </details>
             <details>
-              <summary class="faq-questions">What is the minimum rental period?</summary>
+              <summary class="faq-questions">What is the minimum rental period? </summary>
               <p>You can rent a coffee machine for at least 2 months.</p>
             </details>
             <details>
@@ -634,7 +636,7 @@
                 immediately repair or replace the coffee machine.</p>
             </details>
             <details>
-              <summary class="faq-questions">How to order a coffee machine? </summary>
+              <summary class="faq-questions">How to order a coffee machine?</summary>
               <p>Choose a coffee machine right on the website or send us a request if you need advice. We will contact
                 you, discuss all the details, send you a rental agreement, and install the chosen coffee machine.</p>
             </details>
@@ -672,10 +674,12 @@
               coffeespace@email.com</p>
           </section>
         </section>
-        <iframe class="footer-map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0135893874303!2d-73.96510858540155!3d40.761725842510295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e62ee94721%3A0x7c0f8f9e54640f0b!2s303%20E%2061st%20St%2C%20New%20York%2C%20NY%2010065%2C%20USA!5e0!3m2!1sen!2sua!4v1660303920067!5m2!1sen!2sua"
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+        <div class="footer-map-wrap">
+          <iframe class="footer-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0135893874303!2d-73.96510858540155!3d40.761725842510295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e62ee94721%3A0x7c0f8f9e54640f0b!2s303%20E%2061st%20St%2C%20New%20York%2C%20NY%2010065%2C%20USA!5e0!3m2!1sen!2sua!4v1660303920067!5m2!1sen!2sua"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
       </div>
 
       <div class="input-footer-wrap">
@@ -696,7 +700,7 @@
         </div>
       </div>
     </div>
-
+    
     <div class="footer-info-section">
       <div class="footer-about-wrap">
         <img src="img/coffee-machine-rental-logo.svg" alt="Coffee machine rental service logo"
@@ -743,14 +747,15 @@
       </div>
     </div>
     <!-- Yuliia end-->
-
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
   <script src="js/testimonials-carousel.js"></script>
   <script src="js/services-tabs.js"></script>
   <script src="js/footer.js"></script>
+
 </body>
 
 </html>

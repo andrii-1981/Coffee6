@@ -35,7 +35,7 @@
             single problem situation has arisen. The service is fast, the coffee is delivered without
             delay, the prices for coffee machine rental are very low.”</p>
             <p class="text__data">March 22, 2021</p>
-        </div>`
+        </div>`,
   ];
 
   let currentSlideIdx = 0;
