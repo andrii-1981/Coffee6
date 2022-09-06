@@ -6,8 +6,8 @@
 
 .testimonials-carousel__btn-prev,
 .testimonials-carousel__btn-next {
-    border: none;
-    background-color: var(--bg-color);
+  border: none;
+  background-color: var(--bg-color);
 }
 
 .testimonials__btn {

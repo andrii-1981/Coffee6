@@ -292,6 +292,7 @@ details p {
   background-color: var(--text-color);
 }
 
+
 @media (min-width: 700px) {
   .faq-section-wrap {
     width: 100%;
@@ -300,7 +301,7 @@ details p {
 
   .faq-section {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
   }
 
   #photo-happy-women {
@@ -322,6 +323,10 @@ details p {
     justify-content: flex-end;
     width: 100%;
     margin: 0 10px;
+  }
+
+  .faq-wrap p {
+    margin: 0 0 10px;
   }
 
   .questions-dropdown {

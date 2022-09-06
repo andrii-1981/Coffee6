@@ -38,11 +38,13 @@
 .ikonka__text {
   font-weight: bold;
   color: var(--head-text-color);
+  margin: 0;
 }
 
 .ikonka__video {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .ikonka__video__play {
