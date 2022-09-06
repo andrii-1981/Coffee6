@@ -679,19 +679,21 @@
 
       <div class="input-footer-wrap">
         <div class="input-footer">
-          <input type="text" inputmode="latin-name" placeholder="Enter your full name *" class="user-data-input"
-            id="name-input">
-          <label for="name-input"></label>
-          <input type="tel" autocomplete="tel" placeholder="Enter your phone number *" class="user-data-input"
-            id="number-input">
-          <label for="number-input"></label>
-          <input type="email" autocomplete="email" placeholder="Enter your e-mail *" class="user-data-input"
-            id="email-input">
-          <label for="email-input"></label>
-          <input type="text" inputmode="latin-name" maxlength="900" placeholder="Type your message"
-            class="user-data-input" id="quote-input">
-          <label for="quote-input"></label>
-          <button type="submit" class="submit-button-footer">Request a Quote</button>
+          <form action="https://formspree.io/f/mpznqrnj" method="POST">
+            <input type="text" inputmode="latin-name" placeholder="Enter your full name *" class="user-data-input"
+              id="name-input" name="name" required>
+            <label for="name-input"></label>
+            <input type="tel" autocomplete="tel" placeholder="Enter your phone number *" class="user-data-input"
+              id="number-input" name="tel" required>
+            <label for="number-input"></label>
+            <input type="email" autocomplete="email" placeholder="Enter your e-mail *" class="user-data-input"
+              id="email-input" name="email" required>
+            <label for="email-input"></label>
+            <input type="text" inputmode="latin-name" maxlength="900" placeholder="Type your message"
+              class="user-data-input" id="quote-input" name="text" required>
+            <label for="quote-input"></label>
+            <button type="submit" class="submit-button-footer">Request a Quote</button>
+          </form>
         </div>
       </div>
     </div>
@@ -723,8 +725,10 @@
       </div>
       <div class="newsletter-subscription">
         <label for="email-subs" class="email-label">Subscribe to our newsletter</label>
-        <input id="email-subs" type="email" autocomplete="email" placeholder="Email*">
-        <button class="subscription-button">Subscribe</button>
+        <form action="https://formspree.io/f/xbjbdybb" method="POST" class="email-subs-wrap">
+          <input id="email-subs" type="email" autocomplete="email" placeholder="Email*" name="email">
+          <button class="subscription-button" type="submit">Subscribe</button>
+        </form>
       </div>
     </div>
 
