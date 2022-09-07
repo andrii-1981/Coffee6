@@ -14,16 +14,22 @@
 }
 
 .video__coffe__wrap {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .video__content {
   padding-top: 90px;
   padding-bottom: 40px;
+  justify-content: start;
+}
+
+.content__text {
+  color: var(--text-higlight);
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 20px 0;
 }
 
 .video__text {
@@ -53,19 +59,16 @@
 }
 
 .section__choice {
-  padding-left: 24px;
-  padding-right: 24px;
-  display: flex;
-  align-items: center;
+  padding: 50px 24px;
 }
 
 .section__choice-content {
   padding: 50px 0 50px 0;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start; */
+  align-items: flex-start;
 }
 
 .choice__header {
@@ -84,32 +87,32 @@
 }
 
 .button__container {
-  margin-top: 50px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  text-align: left;
 }
 
 .choice__button__coffe {
-  margin: 10px;
-  padding: 16px 25px;
+  margin: auto;
+  padding: 16px 20px;
   color: var(--heading-color);
   background-color: var(--bg-color);
   text-decoration: none;
   text-transform: capitalize;
   font-weight: bold;
   border-radius: 2px;
-  width: 150px;
+  width: 200px;
 }
 
 .choice__button__more {
-  margin: 10px;
-  padding: 16px 25px;
+  margin: auto;
+  padding: 16px 20px;
   color: var(--head-text-color);
   border-color: var(--head-text-color);
   background-color: var(--background);
   border-radius: 2px;
-  width: 150px;
+  width: 200px;
 }
 
 .testimonials {
@@ -184,6 +187,23 @@
   .button__container {
     padding-bottom: 0;
   }
+  
+  .section__choice,
+  .section__video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .chois__container {
+    padding-bottom: 0;
+  }
+
+  .video__coffe__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 768px) {
@@ -192,4 +212,13 @@
     line-height: 1.1;
     letter-spacing: 0;
   }
+
+  .choice__text {
+    margin-top: 5px;
+  }
+
+
 }
+
+
+  
