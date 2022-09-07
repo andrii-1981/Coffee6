@@ -1,7 +1,21 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 24px 30px 24px;
+}
+
 .testimonials-carousel {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15px;
+}
+
+.testimonials__image {
+  width: 25%;
 }
 
 .testimonials-carousel__btn-prev,
@@ -21,3 +35,4 @@
   display: flex;
   justify-content: space-around;
 }
+

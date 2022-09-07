@@ -49,7 +49,7 @@
 
 .ikonka__video {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .testimonials {
-  padding: 120px 0;
+  padding: 90px 0;
 }
 
 .testimonials__container {
@@ -188,12 +188,17 @@
     padding-bottom: 0;
   }
   
-  .section__choice,
-  .section__video {
+  .section__choice {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+  }
+
+  .section__video {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
   }
 
   .chois__container {
@@ -208,15 +213,13 @@
 
 @media (min-width: 768px) {
   .video__text {
-    font-size: 63px;
-    line-height: 1.1;
-    letter-spacing: 0;
+    display: flex;
+    justify-content: space-between;
   }
 
   .choice__text {
     margin-top: 5px;
   }
-
 
 }
 

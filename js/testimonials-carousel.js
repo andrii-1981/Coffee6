@@ -1,7 +1,7 @@
 (function () {
   const slides = [
     `<div class ="testimonials__slide">
-            <img src="img/testimonials/client-01.png" alt="Client 01">
+            <img class="testimonials__image" src="img/testimonials/client-01.png" alt="Client 01">
             <h3 class="name__client">Josh Mendel</h3>
             <p class="testimonials__text">“I really love to drink coffee in the morning, but I hate making it.
             Therefore, I decided to
@@ -10,7 +10,7 @@
           <p class="text__data">December 15, 2020</p>
         </div>`,
     `<div class ="testimonials__slide">
-            <img src="img/testimonials/client-02.png" alt="Client 02">
+            <img class="testimonials__image" src="img/testimonials/client-02.png" alt="Client 02">
             <h3 class="name__client">Jessica Malacks</h3>
             <p class="testimonials__text">“We have renovated the office kitchen and decided to delight our employees
               with automatic
@@ -19,7 +19,7 @@
             <p class="text__data">February 10, 2021</p>
         </div>`,
     `<div class ="testimonials__slide">
-            <img src="img/testimonials/client-03.png" alt="Client 03">
+            <img class="testimonials__image" src="img/testimonials/client-03.png" alt="Client 03">
             <h3 class="name__client">Daniella Williamson</h3>
             <p class="testimonials__text">“When I opened a coffee shop, I couldn't find an affordable coffee machine.
               Finally, I found
@@ -28,7 +28,7 @@
             <p class="text__data">March 04, 2021</p>
         </div>`,
     `<div class ="testimonials__slide">
-            <img src="img/testimonials/client-04.png" alt="Client 04">
+            <img class="testimonials__image" src="img/testimonials/client-04.png" alt="Client 04">
             <h3 class="name__client">Dean Steinberg</h3>
             <p class="testimonials__text">“We have been cooperating with this company for 2 years already, and during
             this time, not a
@@ -49,7 +49,7 @@
       const secondSlideIdx =
         currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
       slideContainer.innerHTML += slides[secondSlideIdx];
-      if (window.innerWidth > 900) {
+      if (window.innerWidth > 600) {
         const thirdSlideIdx =
           secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
         slideContainer.innerHTML += slides[thirdSlideIdx];
