@@ -89,7 +89,6 @@
 .button__container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   text-align: left;
 }
 
@@ -107,6 +106,7 @@
 .choice__button__coffee {
   color: var(--heading-color);
   background-color: var(--bg-color);
+  margin-left: 0;
 }
 
 .choice__button__more {

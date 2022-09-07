@@ -53,9 +53,9 @@
 }
 
 .testimonials-carousel__slides {
+  margin: 0 30px;
   min-height: 100px;
   display: flex;
-  justify-content: start;
 }
 
 .name__client {
