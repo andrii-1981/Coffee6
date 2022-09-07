@@ -45,11 +45,11 @@
       ".testimonials-carousel__slides"
     );
     slideContainer.innerHTML = slides[currentSlideIdx];
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 700) {
       const secondSlideIdx =
         currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
       slideContainer.innerHTML += slides[secondSlideIdx];
-      if (window.innerWidth > 600) {
+      if (window.innerWidth > 900) {
         const thirdSlideIdx =
           secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
         slideContainer.innerHTML += slides[thirdSlideIdx];
