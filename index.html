@@ -687,10 +687,11 @@
       </div>
       <div class="newsletter-subscription">
         <label for="email-subs" class="email-label">Subscribe to our newsletter</label>
-        <form action="https://formspree.io/f/xbjbdybb" method="POST" class="email-subs-wrap">
           <input id="email-subs" type="email" autocomplete="email" placeholder="Email*" name="email">
-          <button class="subscription-button" type="submit">Subscribe</button>
-        </form>
+          <button type="button" class="btn btn-primary subscription-button" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Subscribe
+          </button>
       </div>
     </div>
 
@@ -705,6 +706,24 @@
           <img src="img/footer/twitter-icon-footer.png" alt="Small Instagram icon" class="footer-icon"></a>
         <a href="https://www.youtube.com/" target="_blank">
           <img src="img/footer/youtube-icon-footer.png" alt="Small YouTube icon" class="footer-icon"></a>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Hooray!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/footer/bongo-cat.gif" alt="Cat playing the piano" class="modal-window-img">
+            <p>You successfully subscribed</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Yuliia end-->

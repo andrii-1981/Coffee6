@@ -323,7 +323,9 @@ details[open]>.faq-question-answer {
   background-color: var(--text-color);
 }
 
-
+.modal-window-img {
+  width: 100%;
+}
 
 @media (min-width: 700px) {
   .faq-section-wrap {
