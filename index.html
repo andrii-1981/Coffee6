@@ -24,11 +24,37 @@
   <header class="header">
     <nav class="header__nav">
       <img class="header-logo" src="img/header/coffee-space-logo.svg" alt="Coffee Space Logo">
-      <div class="burger-menu">☰</div>
+
+      <button type="button" class="btn btn-primary burger-menu" data-bs-toggle="modal" data-bs-target="#exampleModal"> ☰
+      </button>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="linkscontainer burgerlinks">
+                <div class="header-text-links">
+                  <a href="#about" class="links-remove">About Us</a>
+                  <a href="#coffee-machine-selection" class="links-remove">Coffee Machines</a>
+                  <a href="#testimonials" class="links-remove">Testimonials</a>
+                  <a href="#services" class="links-remove">Services</a>
+                  <a href="#coffee" class="links-remove">Coffee</a>
+                  <a href="#" class="links-remove">Pricing</a>
+                  <a href="#contact-us" class="links-remove">Contacts</a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </nav>
     <div class="site-intro">
       <span class="rental-heading">RENTAL</span>
-      <p>Rent a <span class="text-emphasis">Coffee</span> Machine</p>
+      <p>Rent a <span class="text-emphasis">Coffee</span> <br> Machine</p>
       <span class="rental-heading">Need a coffee machine for commercial or home use? Get one here!</span>
       <button class="header__link">Coffee Machines</button>
     </div>
@@ -229,7 +255,6 @@
           offer affordable rental solutions.</p>
       </div>
     </div>
-
     <!-- Aybars  end-->
 
     <!-- Andrii start-->
@@ -404,7 +429,7 @@
     <!--Andrii end -->
 
     <!--Evgenyi start-->
-    <section id="coffee">
+    <!-- <section id="coffee">
       <div class="header-coffee">
         <h6 class="mini-heading">OUR COFFEE</h6>
         <h2 class="heading">Discover the Rich Coffee Taste</h2>
@@ -493,11 +518,11 @@
         <p>___</p>
         <p>Coffee varieties you can buy together with the coffee machine rental.</p>
       </div>
-    </section>
+    </section> -->
     <!--Evgenyi end-->
 
     <!--Vita start-->
-    <section class="section__video">
+    <section class="section__video" id="testimonials">
       <div class="section__video-container">
         <div class="video__coffe__wrap">
           <div class="video__content">
@@ -687,11 +712,11 @@
       </div>
       <div class="newsletter-subscription">
         <label for="email-subs" class="email-label">Subscribe to our newsletter</label>
-          <input id="email-subs" type="email" autocomplete="email" placeholder="Email*" name="email">
-          <button type="button" class="btn btn-primary subscription-button" data-bs-toggle="modal"
-            data-bs-target="#exampleModal">
-            Subscribe
-          </button>
+        <input id="email-subs" type="email" autocomplete="email" placeholder="Email*" name="email">
+        <button type="button" class="btn btn-primary subscription-button" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">
+          Subscribe
+        </button>
       </div>
     </div>
 

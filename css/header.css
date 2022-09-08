@@ -6,19 +6,26 @@
 }
 
 .header-logo {
-  width: 30%;
+  width: 20%;
 }
 
 .burger-menu {
-  color: var(--heading-color);
   font-size: 30px;
   color: var(--text-color);
   cursor: pointer;
+  border: none;
+  background-color: unset;
+}
+
+.burger-menu:hover {
+  color: var(--text-color);
+  border: none;
+  background-color: unset;
 }
 
 .site-intro {
   width: 100%;
-  height: 80vh;
+  height: 110vh;
   background-image: url(../img/header/header-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,6 +33,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  padding: 0 60px;
 }
 
 .rental-heading {
@@ -65,4 +73,30 @@
 
 .header__link:hover {
   background-color: var(--heading-color);
+}
+
+.links-remove {
+  text-decoration: none;
+  color: var(--background-darkened);
+  transition: var(--transition-hover);
+  font-size: 13px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.header-text-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-remove:hover {
+  color: var(--background);
+}
+
+@media (min-width: 700px) {
+  .site-intro {
+    padding: 0 150px;
+  }
 }
