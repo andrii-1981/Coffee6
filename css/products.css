@@ -100,13 +100,13 @@
   transition: var(--transition-hover);
   text-decoration: none;
   font-weight: bold;
-  margin: 10px;
 }
 
 .choice__button__coffee {
   color: var(--heading-color);
   background-color: var(--bg-color);
   margin-left: 0;
+  margin-right: 10px;
 }
 
 .choice__button__more {
@@ -158,6 +158,10 @@
   .button__container {
     flex-direction: column;
     padding-bottom: 0;
+  }
+
+  .choice__button__coffee {
+    margin-bottom: 10px;
   }
 
   .section__choice {
