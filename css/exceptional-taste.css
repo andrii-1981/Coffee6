@@ -1,116 +1,46 @@
-.main__container {
+.exceptional-taste-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.exceptional-taste__img {
   width: 100%;
+  object-fit: cover;
 }
 
-.main__first-image {
-  width: 100%;
-  /* height: 900px; */
+.exceptional-taste__text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 60px;
+  background-color: var(--bg-color);
 }
 
-/* 
-.main__left-side {
-  float: left; 
-  width: 45%;
-} */
-
-#new__arrival-header-text {
-  color: #c00407;
-  font-size: inherit;
-  font-family: "Roboto";
-  font-size: small;
+.exceptional-taste__icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  border-radius: 80px;
+  width: 47px;
+  height: 47px;
+  margin-bottom: 5px;
 }
 
-.main__paragraf--text1 {
-  font-size: 15px;
-  font-family: "Roboto";
-  color: #8c8c8c;
-}
-
-.main__paragraf--text2 {
-  display: inline;
-  font-size: 15px;
-  font-family: "Roboto";
-  color: #8c8c8c;
-}
-
-.okey__icon {
+.exceptional-taste__icon {
   width: 20px;
-  height: 20px;
 }
 
-.main__second-part {
-  width: 55%;
+.sub-heading__text {
+  font-size: 10px;
 }
 
-.exceptional__taste-header {
-  text-align: right;
-  color: red;
-}
+@media (min-width: 750px) {
+  .exceptional-taste-wrap {
+    flex-direction: row;
+  }
 
-.all__text {
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
-.header__text--part1 {
-  font-size: 40px;
-}
-
-.all__icon--text {
-  margin-left: 50px;
-}
-
-.rent__button {
-  margin-left: 50px;
-}
-
-.rent__button a:hover {
-  background-color: black;
-  text-decoration: none;
-}
-
-.button__rent--now {
-  background-color: #c00407;
-  background-size: 80px;
-  border: 3px solid #c00407;
-  width: 80px;
-  height: 70px;
-  text-decoration: none;
-}
-
-.button__rent--now a:link {
-  color: white;
-  text-align: center;
-}
-
-.first__text-rightside {
-  color: #c00407;
-  font-size: inherit;
-  font-family: "Roboto";
-  font-size: small;
-}
-
-/*  .main__right--side {
- float: right;
-  width: 50%;
-  padding-top: 80px; 
-} */
-
-.header__text--part2 {
-  font-size: 40px;
-}
-
-.all__text--rightside {
-  text-align: left;
-}
-
-.strong {
-  font-size: 25px;
-}
-
-.all__text--rightside2 {
-  font-size: 15px;
-  font-family: "Roboto";
-  color: #8c8c8c;
-
+  .exceptional-taste__img {
+    width: 50%;
+  }
 }

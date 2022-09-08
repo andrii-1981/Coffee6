@@ -17,7 +17,7 @@
   color: var(--testimonials-text);
   font-style: italic;
   text-align: left;
-  width: 200px;
+  width: 230px;
   font-size: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -76,5 +76,9 @@
 
   .testimonials-carousel__slides {
     justify-content: space-around;
+  }
+
+  .testimonials__text {
+    width: 200px;
   }
 }
