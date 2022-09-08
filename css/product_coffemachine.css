@@ -126,11 +126,11 @@
 
 .coffemachine-red_image {
   object-fit: contain;
-  object-fit: cover;
-  width: 50%;
-  margin-top: 300px;
-  /* margin-left: 150px; */
-  margin-bottom: 50px;
+    font-family: "object-fit:cover";
+    width: 100%;  
+    box-sizing: border-box;
+    padding: 100px;
+    margin: auto;
 }
 
 .slider_logo-img {
@@ -223,6 +223,10 @@
   -webkit-animation: all .3s linear;
   -moz-animation: all .3s linear;
 }
+.container__articles_machine {
+  margin-left: 50px;
+  
+  }
 
 @media (min-width: 600px) {
   .container__articles_machine {
