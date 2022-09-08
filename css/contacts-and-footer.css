@@ -273,6 +273,7 @@ details[open]>.faq-question-answer {
   background-color: var(--text-higlight);
   color: var(--bg-color);
   border-style: none;
+  border-radius: 0;
   width: 100%;
   height: 6vh;
   margin: 15px 0 0;
